@@ -1,6 +1,6 @@
 # Incident Dashboard
 
-A responsive, production-ready React application designed to aggregate, filter, and display incident data. This project is built with **React 18**, **TypeScript**, and **SCSS**, utilizing **TanStack Query** for efficient data management.
+A responsive, production-ready React application designed to aggregate, filter, and display incident data. This project is built with **React 19**, **TypeScript**, and **SCSS**, utilizing **TanStack Query** for efficient data management.
 
 ## Quick Start
 
