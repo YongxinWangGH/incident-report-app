@@ -1,0 +1,21 @@
+:root {
+  --bg-dark: #383838;       
+  --bg-header: #4a4a4a;     
+  --bg-row-hover: #2a2a2a;  
+  --bg-page: #222222;       
+  
+  --text-primary: #ffffff;
+  --text-secondary: #dddddd;
+  --border-color: #555555;
+  
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-size-std: 0.875rem; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-page);
+  font-family: var(--font-family);
+  font-size: var(--font-size-std); 
+}

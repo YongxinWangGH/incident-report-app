@@ -1,0 +1,41 @@
+.dashboard-container {
+  max-width: 75rem; 
+  margin: 1.25rem auto; 
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.5);
+
+  .dashboard-header {
+    background-color: var(--bg-header);
+    padding: 0.9375rem 1.25rem; 
+    border-bottom: 1px solid var(--border-color);
+
+    h2 {
+      margin: 0;
+      font-size: 1.2rem; 
+      font-weight: 500;
+      color: var(--text-primary);
+    }
+  }
+
+  .mobile-view { display: none; }
+  .desktop-view { display: block; }
+
+  @media (max-width: 599px) {
+    .mobile-view { display: block; }
+    .desktop-view { display: none; }
+  }
+}
+
+.loading-state,
+.error-state {
+  padding: 1.25rem; 
+  text-align: center;
+  color: #fff;
+}
+
+.status-icon {
+  width: 1.5rem;  
+  height: 1.5rem; 
+  vertical-align: middle;
+}

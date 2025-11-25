@@ -1,0 +1,50 @@
+.incident-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  background-color: var(--bg-dark);
+
+  .incident-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: var(--font-size-std); 
+    text-align: left;
+
+    thead {
+      th {
+        background-color: var(--bg-header);
+        color: var(--text-primary);
+        font-weight: 600;
+        padding: 0.9375rem 0.625rem; 
+        border-bottom: 2px solid var(--border-color);
+
+        &.col-icon {
+          width: 2.5rem; 
+          text-align: center;
+        }
+      }
+    }
+
+    tbody {
+      td {
+        padding: 0.75rem 0.625rem; 
+        border-bottom: 1px solid var(--border-color);
+        color: var(--text-secondary);
+        vertical-align: middle;
+
+        &.col-icon {
+          text-align: center;
+        }
+      }
+
+      tr {
+        background-color: var(--bg-dark);
+        transition: background-color 0.2s;
+
+        &:hover {
+          background-color: var(--bg-row-hover);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
